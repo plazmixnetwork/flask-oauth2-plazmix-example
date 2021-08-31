@@ -13,7 +13,7 @@ oauth.register(
     api_base_url='https://api.plazmix.net/v1/',
     access_token_url='https://api.plazmix.net/v1/Oauth2.accessToken',
     authorize_url='https://auth.plazmix.net/oauth2/authorize'
-)c
+)
 
 
 @app.errorhandler(OAuthError)
